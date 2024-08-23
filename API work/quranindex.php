@@ -67,7 +67,7 @@ foreach ($QuranApi as  $index) {
 <td>' . $index["numberOfAyahs"] . '</td>
 <td>' . $index["revelationType"] . '</td>
 <td>
-   <form action="readai.php" method="post">
+   <form action="read.php" method="post">
 
 <input type="hidden" name="reader" value="' . $index["number"] . '">
 <input class="btn btn-primary" type="submit" value="Read Surah">
